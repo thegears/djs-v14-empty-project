@@ -1,0 +1,19 @@
+{
+  "name": "djs-v14-empty-project",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security"
+  },
+  "scripts": {
+	  "register": "bun tools/registerSlashInteractions.ts",
+	  "start": "bun index.ts"
+  }
+}
